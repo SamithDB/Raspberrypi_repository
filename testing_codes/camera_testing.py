@@ -1,3 +1,4 @@
+#only usable with RAspberrypi
 import picamera
 
 #setup the camera

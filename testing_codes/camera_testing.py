@@ -3,7 +3,7 @@ import picamera
 
 #setup the camera
 print("Camera ready!")
-with picamera() as camera:
+with picamera.PiCamera() as camera:
     camera.resolution = (1280,720)
     camera.capture("i/home/pi/Desktop/cookie/newimage.jpg")
 

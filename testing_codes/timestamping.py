@@ -13,3 +13,4 @@ command = "/user/bin/convert" +file+ " -pointsize 32 \ -fill red -annotate +700+
 
 #Execute our command
 call([command], shell=True)
+print("Picture timestamped!")
